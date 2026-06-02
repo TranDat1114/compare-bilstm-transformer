@@ -1,0 +1,20 @@
+{
+  "lstm": {
+    "params": 2012683,
+    "time_per_epoch": 10.30854266568234,
+    "total_train_time": 197.81350708007812,
+    "best_epoch": 13,
+    "best_dev_macro_f1": 0.6569460284183303,
+    "best_f1": 0.6284692359943344,
+    "test_acc": 0.8437125748502994
+  },
+  "transformer": {
+    "params": 1962827,
+    "time_per_epoch": 3.816455155611038,
+    "total_train_time": 61.12753105163574,
+    "best_epoch": 10,
+    "best_dev_macro_f1": 0.6448271681836312,
+    "best_f1": 0.6197377453957128,
+    "test_acc": 0.8278443113772455
+  }
+}

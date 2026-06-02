@@ -1,0 +1,37 @@
+{
+  "data": {
+    "text_col": "free_text",
+    "label_col": "label_id",
+    "max_len": 64,
+    "min_freq": 2,
+    "lowercase": true,
+    "clean": true,
+    "word_segment": false
+  },
+  "model": {
+    "embed_dim": 200,
+    "lstm_hidden": 128,
+    "lstm_layers": 2,
+    "d_model": 200,
+    "n_heads": 4,
+    "n_layers": 2,
+    "dim_ff": 512,
+    "use_pos_enc": true,
+    "dropout": 0.3
+  },
+  "train": {
+    "batch_size": 64,
+    "epochs": 30,
+    "patience": 6,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "grad_clip": 1.0,
+    "use_class_weight": true,
+    "loss": "weighted_ce",
+    "focal_gamma": 2.0,
+    "label_smoothing": 0.0,
+    "scheduler": "warmup_linear"
+  },
+  "seed": 42
+}
