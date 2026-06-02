@@ -34,8 +34,7 @@
 | `1` | **OFFENSIVE** | công kích / xúc phạm |
 | `2` | **HATE** | ngôn từ thù ghét |
 
-Đây là bộ **ViHSD** (Vietnamese Hate Speech Detection). Mục tiêu của đồ án **không chỉ** là đạt
-điểm cao, mà là **so sánh có hệ thống**:
+Đây là bộ **ViHSD** (Vietnamese Hate Speech Detection). **so sánh có hệ thống**:
 
 - **Hai kiến trúc:** `BiLSTM` (hồi quy) vs `Transformer Encoder` (self-attention) — *cài từ đầu*,
   **dùng chung** mọi thứ trừ cách trộn thông tin theo thời gian ⇒ so sánh **công bằng** về kiến trúc.
